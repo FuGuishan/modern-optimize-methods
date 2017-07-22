@@ -73,7 +73,7 @@ do
 用newPop取代Pop
 }until ( 任何染色体得分超过Tf， 或繁殖代数超过G )
 ```
-### 算法结果
+### 算法结果TSP问题
 5个城市数据时暴力求解（最优值）和启发结果对比
 ![](https://github.com/FuGuishan/modern-optimize-methods/blob/master/genetic_algorithm/raw/5points.png)
 10个城市数据时暴力求解（最优值）和启发结果对比
