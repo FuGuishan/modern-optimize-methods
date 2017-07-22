@@ -16,9 +16,11 @@
     种群                                         根据适应函数值选定的一组解
     交配                                         通过交配原则产生一组新解的过程
     变异                                         编码的某一分量发生变化的过程
-    ---------------------------------------------------------------------------------------------
-### 算法步骤
-    STEP1:选择问题的一个编码，给出一个具有N个染色体的初始种群POP(1)，t:=1.
-    STEP2:对群体POP(t)的每一个染色体pop(t)，计算他的适应度函数
-                        f=fitness(pop(t))
-    STEP3:
+    ---------------------------------------------------------------------------------------------
+### 算法结果
+5个城市数据时暴力求解（最优值）和启发结果对比
+![](https://github.com/FuGuishan/modern-optimize-methods/blob/master/genetic_algorithm/raw/5points.png)
+10个城市数据时暴力求解（最优值）和启发结果对比
+![](https://github.com/FuGuishan/modern-optimize-methods/blob/master/genetic_algorithm/raw/10points.png)
+50个城市数据时暴力求解（最优值）无法在短时间内给出解，给出启发结果
+![](https://github.com/FuGuishan/modern-optimize-methods/blob/master/genetic_algorithm/raw/50points.png)
