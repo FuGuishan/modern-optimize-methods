@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1502883126 source:d:\workspace\cdn\main.cpp
+	<iostream>
+	<vector>
+	"file.h"
+	"main.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1502094565 d:\workspace\cdn\file.h
+	<stdio.h>
+	<stdlib.h>
+
+1502093753 d:\workspace\cdn\file.cpp
+	"file.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1502695359 source:d:\workspace\cdn\file.cpp
+	"file.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1502882621 d:\workspace\cdn\main.h
+	<iostream>
+
